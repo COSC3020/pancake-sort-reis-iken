@@ -17,7 +17,7 @@ jsc.assert(testSort);
 const testFlip = jsc.forall("array nat", "nat", function(arr, n) {
     var flip1 = flip(arr, n);
     var flip2 = flip(flip1, n);
-    return JSON.stringify(arr) === JSON.stringify(flip2);
+    return JSON.stringify(arr) == JSON.stringify(flip2);
 });
 
 jsc.assert(testFlip);
