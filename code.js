@@ -4,7 +4,7 @@ function flip(array, n) {
 }
 
 function pancakeSort(array) {
-    let sortedArray = [...arr];
+    let sortedArray = [...array];
     let n = sortedArray.length;
     for (let i = n; i > 0; i--) {
         let max = 0;
