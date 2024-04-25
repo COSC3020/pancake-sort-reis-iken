@@ -30,3 +30,8 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+**MY ANSWER:**
+
+In terms of comparisons, the asymptotic runtime of the algorithm is $\Theta(n^2)$ considering the outer loop runs for n iterations of the n-1 iterations of the inner loop.
+
+In terms of flips, the asymptotic expression should also be \Theta(n^2)$ as the flip function is referenced for n iterations of the outer loop, and the flip function itself (the slicing and reversing) takes n time.
